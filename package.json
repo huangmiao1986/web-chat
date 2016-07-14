@@ -1,0 +1,15 @@
+{
+  "name": "web-chat",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "debug"
+  },
+  "author": "huangmiao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
