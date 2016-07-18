@@ -117,7 +117,7 @@
 
             //监听消息发送
             this.socket.on('client-message', function(obj){
-                var isme = (obj.userid == CHAT.userid) ? true : false;
+                var isme = (obj.userid == w.CHAT.userid) ? true : false;
                 var contentDiv = '<div>'+obj.content+'</div>';
                 var usernameDiv = '<span>'+obj.username+'</span>';
 
